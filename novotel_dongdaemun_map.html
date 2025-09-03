@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_74c0cd207240cfb68c606dca9296e8e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_74c0cd207240cfb68c606dca9296e8e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_74c0cd207240cfb68c606dca9296e8e7 = L.map(
+                "map_74c0cd207240cfb68c606dca9296e8e7",
+                {
+                    center: [37.566336, 127.006958],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_06169f3aa21e9a009682f8f4a74d6f54 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var marker_86efa1013db8724c9479e803ce03abcb = L.marker(
+                [37.5725, 127.0015],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_e1671145afb04500bde5637bf1f5b71c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86efa1013db8724c9479e803ce03abcb.setIcon(icon_e1671145afb04500bde5637bf1f5b71c);
+        
+    
+        var popup_d28b330a4737639a8693448e3455bede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0254d5e72db17b65b619db5e5ef355f1 = $(`<div id="html_0254d5e72db17b65b619db5e5ef355f1" style="width: 100.0%; height: 100.0%;"><b>진옥화할매원조닭한마리</b><br>닭한마리 골목 대표집, 1인 약 12~20천원</div>`)[0];
+            popup_d28b330a4737639a8693448e3455bede.setContent(html_0254d5e72db17b65b619db5e5ef355f1);
+        
+
+        marker_86efa1013db8724c9479e803ce03abcb.bindPopup(popup_d28b330a4737639a8693448e3455bede)
+        ;
+
+        
+    
+    
+            marker_86efa1013db8724c9479e803ce03abcb.bindTooltip(
+                `<div>
+                     진옥화할매원조닭한마리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e000298fba3c7cdd501c1e94b0369cc2 = L.marker(
+                [37.5676, 127.0064],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_b1e29757981f8848556bb0a156deb939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e000298fba3c7cdd501c1e94b0369cc2.setIcon(icon_b1e29757981f8848556bb0a156deb939);
+        
+    
+        var popup_cda90401767b4303628c6aa1afc79ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aa420dcbf8f30588b3261ff174ac20d = $(`<div id="html_5aa420dcbf8f30588b3261ff174ac20d" style="width: 100.0%; height: 100.0%;"><b>우래옥</b><br>평양냉면 명가, 1인 약 15~30천원</div>`)[0];
+            popup_cda90401767b4303628c6aa1afc79ccc.setContent(html_5aa420dcbf8f30588b3261ff174ac20d);
+        
+
+        marker_e000298fba3c7cdd501c1e94b0369cc2.bindPopup(popup_cda90401767b4303628c6aa1afc79ccc)
+        ;
+
+        
+    
+    
+            marker_e000298fba3c7cdd501c1e94b0369cc2.bindTooltip(
+                `<div>
+                     우래옥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d780576134662ad0430fc314fc374bfc = L.marker(
+                [37.5618, 126.9955],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_b8e44f44f2d1b7e0231904f3ce2bf0aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d780576134662ad0430fc314fc374bfc.setIcon(icon_b8e44f44f2d1b7e0231904f3ce2bf0aa);
+        
+    
+        var popup_c84356cef4b58dc4378f2c6e17013de2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_816353a80c8b22f29037c58999deca3c = $(`<div id="html_816353a80c8b22f29037c58999deca3c" style="width: 100.0%; height: 100.0%;"><b>필동면옥</b><br>냉면, 편육, 1인 약 12~25천원</div>`)[0];
+            popup_c84356cef4b58dc4378f2c6e17013de2.setContent(html_816353a80c8b22f29037c58999deca3c);
+        
+
+        marker_d780576134662ad0430fc314fc374bfc.bindPopup(popup_c84356cef4b58dc4378f2c6e17013de2)
+        ;
+
+        
+    
+    
+            marker_d780576134662ad0430fc314fc374bfc.bindTooltip(
+                `<div>
+                     필동면옥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53d52fca08a34ecb3f35fc0029a26e15 = L.marker(
+                [37.562, 126.9862],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_6b40348791f929e3c77f176b3e435716 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53d52fca08a34ecb3f35fc0029a26e15.setIcon(icon_6b40348791f929e3c77f176b3e435716);
+        
+    
+        var popup_02ff75c509e1db4400c5a0f14341f41f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0069ec50c980638e0118c824c2f441c = $(`<div id="html_e0069ec50c980638e0118c824c2f441c" style="width: 100.0%; height: 100.0%;"><b>명동교자 본점</b><br>칼국수, 만두, 1인 약 10~15천원</div>`)[0];
+            popup_02ff75c509e1db4400c5a0f14341f41f.setContent(html_e0069ec50c980638e0118c824c2f441c);
+        
+
+        marker_53d52fca08a34ecb3f35fc0029a26e15.bindPopup(popup_02ff75c509e1db4400c5a0f14341f41f)
+        ;
+
+        
+    
+    
+            marker_53d52fca08a34ecb3f35fc0029a26e15.bindTooltip(
+                `<div>
+                     명동교자 본점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_652fb374a72401c169cd270e6a8aa94a = L.marker(
+                [37.5704, 127.001],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_6a05dc672d937b1c4b7db25e2e075fcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_652fb374a72401c169cd270e6a8aa94a.setIcon(icon_6a05dc672d937b1c4b7db25e2e075fcd);
+        
+    
+        var popup_d85f3728680dea5798a62f24dab44872 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a85209ab2ce5351912e06486329ca9e = $(`<div id="html_4a85209ab2ce5351912e06486329ca9e" style="width: 100.0%; height: 100.0%;"><b>광장시장</b><br>빈대떡, 마약김밥 등, 1인 약 8~15천원</div>`)[0];
+            popup_d85f3728680dea5798a62f24dab44872.setContent(html_4a85209ab2ce5351912e06486329ca9e);
+        
+
+        marker_652fb374a72401c169cd270e6a8aa94a.bindPopup(popup_d85f3728680dea5798a62f24dab44872)
+        ;
+
+        
+    
+    
+            marker_652fb374a72401c169cd270e6a8aa94a.bindTooltip(
+                `<div>
+                     광장시장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c09ce9f211236ca6282318e9a79dd2c0 = L.marker(
+                [37.5665, 127.009],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_7f10eef12d800acfd17811a6310e0064 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c09ce9f211236ca6282318e9a79dd2c0.setIcon(icon_7f10eef12d800acfd17811a6310e0064);
+        
+    
+        var popup_6dcabfa733d4d30517618db59732cbc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c35b9c1da1b730ddc1c3c04e9e1bc347 = $(`<div id="html_c35b9c1da1b730ddc1c3c04e9e1bc347" style="width: 100.0%; height: 100.0%;"><b>DDP 동대문디자인플라자</b><br>전시·야간 산책 명소</div>`)[0];
+            popup_6dcabfa733d4d30517618db59732cbc8.setContent(html_c35b9c1da1b730ddc1c3c04e9e1bc347);
+        
+
+        marker_c09ce9f211236ca6282318e9a79dd2c0.bindPopup(popup_6dcabfa733d4d30517618db59732cbc8)
+        ;
+
+        
+    
+    
+            marker_c09ce9f211236ca6282318e9a79dd2c0.bindTooltip(
+                `<div>
+                     DDP 동대문디자인플라자
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aa011e24d39ffcc60e9ae8cb81a2be6 = L.marker(
+                [37.5715, 127.0106],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_dd77e9374c485b4b1255c4945f098fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4aa011e24d39ffcc60e9ae8cb81a2be6.setIcon(icon_dd77e9374c485b4b1255c4945f098fb9);
+        
+    
+        var popup_1163d976de32692b5db42636d70d82d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef2d4136792f11210180a62e1add44d8 = $(`<div id="html_ef2d4136792f11210180a62e1add44d8" style="width: 100.0%; height: 100.0%;"><b>흥인지문(동대문)</b><br>서울 성곽길 시작점, 야간 조명 좋음</div>`)[0];
+            popup_1163d976de32692b5db42636d70d82d7.setContent(html_ef2d4136792f11210180a62e1add44d8);
+        
+
+        marker_4aa011e24d39ffcc60e9ae8cb81a2be6.bindPopup(popup_1163d976de32692b5db42636d70d82d7)
+        ;
+
+        
+    
+    
+            marker_4aa011e24d39ffcc60e9ae8cb81a2be6.bindTooltip(
+                `<div>
+                     흥인지문(동대문)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f83d4884110a6135e6144431bd610119 = L.marker(
+                [37.5681, 127.0063],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_c28578716dc46b8a20a07c855d6f893a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f83d4884110a6135e6144431bd610119.setIcon(icon_c28578716dc46b8a20a07c855d6f893a);
+        
+    
+        var popup_a22294b99672de3a23235a66d9e81bff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c34412318ed94a435b719e0b0e5dc80 = $(`<div id="html_0c34412318ed94a435b719e0b0e5dc80" style="width: 100.0%; height: 100.0%;"><b>청계천</b><br>도심 하천 산책로</div>`)[0];
+            popup_a22294b99672de3a23235a66d9e81bff.setContent(html_0c34412318ed94a435b719e0b0e5dc80);
+        
+
+        marker_f83d4884110a6135e6144431bd610119.bindPopup(popup_a22294b99672de3a23235a66d9e81bff)
+        ;
+
+        
+    
+    
+            marker_f83d4884110a6135e6144431bd610119.bindTooltip(
+                `<div>
+                     청계천
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a2d1e7ec6bb3eb90f5b167cfff1c5cf = L.marker(
+                [37.5728, 127.0351],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_f73b3e53ffc221580d6e436170588250 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a2d1e7ec6bb3eb90f5b167cfff1c5cf.setIcon(icon_f73b3e53ffc221580d6e436170588250);
+        
+    
+        var popup_6da8ac95bb4de0372668a837b960dd6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13cad30a7251b47e18c44d225f9edce4 = $(`<div id="html_13cad30a7251b47e18c44d225f9edce4" style="width: 100.0%; height: 100.0%;"><b>청계천박물관</b><br>청계천 역사·전시, 무료</div>`)[0];
+            popup_6da8ac95bb4de0372668a837b960dd6d.setContent(html_13cad30a7251b47e18c44d225f9edce4);
+        
+
+        marker_5a2d1e7ec6bb3eb90f5b167cfff1c5cf.bindPopup(popup_6da8ac95bb4de0372668a837b960dd6d)
+        ;
+
+        
+    
+    
+            marker_5a2d1e7ec6bb3eb90f5b167cfff1c5cf.bindTooltip(
+                `<div>
+                     청계천박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56115291e3f9a01159d7a34f253fffed = L.marker(
+                [37.5693, 126.9826],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_73ddec8945da95d0bd0346fecc3d2b6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56115291e3f9a01159d7a34f253fffed.setIcon(icon_73ddec8945da95d0bd0346fecc3d2b6f);
+        
+    
+        var popup_ebab645be3e9055ae3c38b181c00dc68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5d1ae74670a1a831420e38f605028e = $(`<div id="html_0d5d1ae74670a1a831420e38f605028e" style="width: 100.0%; height: 100.0%;"><b>하이커그라운드</b><br>K-컬처 체험공간, 무료</div>`)[0];
+            popup_ebab645be3e9055ae3c38b181c00dc68.setContent(html_0d5d1ae74670a1a831420e38f605028e);
+        
+
+        marker_56115291e3f9a01159d7a34f253fffed.bindPopup(popup_ebab645be3e9055ae3c38b181c00dc68)
+        ;
+
+        
+    
+    
+            marker_56115291e3f9a01159d7a34f253fffed.bindTooltip(
+                `<div>
+                     하이커그라운드
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fe732bdde02dfee35242e8bac8fa251 = L.marker(
+                [37.5593, 126.9946],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_eedab13441aa8c21d19ece5bcc82cff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fe732bdde02dfee35242e8bac8fa251.setIcon(icon_eedab13441aa8c21d19ece5bcc82cff0);
+        
+    
+        var popup_07900e05a51561057a49ccdb7164c90d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f56905de29b20381db0bb8c9fcb439e6 = $(`<div id="html_f56905de29b20381db0bb8c9fcb439e6" style="width: 100.0%; height: 100.0%;"><b>남산골한옥마을</b><br>전통한옥, 사진스팟</div>`)[0];
+            popup_07900e05a51561057a49ccdb7164c90d.setContent(html_f56905de29b20381db0bb8c9fcb439e6);
+        
+
+        marker_1fe732bdde02dfee35242e8bac8fa251.bindPopup(popup_07900e05a51561057a49ccdb7164c90d)
+        ;
+
+        
+    
+    
+            marker_1fe732bdde02dfee35242e8bac8fa251.bindTooltip(
+                `<div>
+                     남산골한옥마을
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b910df688d0615455b0182af9aaf0ce = L.marker(
+                [37.574, 126.9947],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_42486ce344cda5beccff5ee8af05743c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b910df688d0615455b0182af9aaf0ce.setIcon(icon_42486ce344cda5beccff5ee8af05743c);
+        
+    
+        var popup_adf6f6c99661b9f8ec0f4b4c6a1fe8a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ac99b52563a09e51bbb17b83825979f = $(`<div id="html_5ac99b52563a09e51bbb17b83825979f" style="width: 100.0%; height: 100.0%;"><b>종묘</b><br>유네스코 세계문화유산</div>`)[0];
+            popup_adf6f6c99661b9f8ec0f4b4c6a1fe8a7.setContent(html_5ac99b52563a09e51bbb17b83825979f);
+        
+
+        marker_3b910df688d0615455b0182af9aaf0ce.bindPopup(popup_adf6f6c99661b9f8ec0f4b4c6a1fe8a7)
+        ;
+
+        
+    
+    
+            marker_3b910df688d0615455b0182af9aaf0ce.bindTooltip(
+                `<div>
+                     종묘
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4df3cbca680c41aa72ae0a1bbc37a50b = L.marker(
+                [37.5668, 127.0095],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_4fab9d82f5ec7d9452812ed3f7f800d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4df3cbca680c41aa72ae0a1bbc37a50b.setIcon(icon_4fab9d82f5ec7d9452812ed3f7f800d0);
+        
+    
+        var popup_b96ff16e66dee405120bc15c86427215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f43fabdffa4a85fb75ba81db7d71a4c = $(`<div id="html_5f43fabdffa4a85fb75ba81db7d71a4c" style="width: 100.0%; height: 100.0%;"><b>두타몰</b><br>야간까지 운영하는 쇼핑몰</div>`)[0];
+            popup_b96ff16e66dee405120bc15c86427215.setContent(html_5f43fabdffa4a85fb75ba81db7d71a4c);
+        
+
+        marker_4df3cbca680c41aa72ae0a1bbc37a50b.bindPopup(popup_b96ff16e66dee405120bc15c86427215)
+        ;
+
+        
+    
+    
+            marker_4df3cbca680c41aa72ae0a1bbc37a50b.bindTooltip(
+                `<div>
+                     두타몰
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_280dbceed58caf4818036cf84483e4a6 = L.marker(
+                [37.566336, 127.006958],
+                {}
+            ).addTo(map_74c0cd207240cfb68c606dca9296e8e7);
+        
+    
+            var icon_b05f8190d8394819e66fe6cf39fdaf65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_280dbceed58caf4818036cf84483e4a6.setIcon(icon_b05f8190d8394819e66fe6cf39fdaf65);
+        
+    
+        var popup_ed4ddbdc57ad902a5f1a07a7f92c1af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5586ff03b7d6ef137993f4dfcd3815a7 = $(`<div id="html_5586ff03b7d6ef137993f4dfcd3815a7" style="width: 100.0%; height: 100.0%;"><b>노보텔 앰배서더 서울 동대문</b> (행사장)</div>`)[0];
+            popup_ed4ddbdc57ad902a5f1a07a7f92c1af7.setContent(html_5586ff03b7d6ef137993f4dfcd3815a7);
+        
+
+        marker_280dbceed58caf4818036cf84483e4a6.bindPopup(popup_ed4ddbdc57ad902a5f1a07a7f92c1af7)
+        ;
+
+        
+    
+    
+            marker_280dbceed58caf4818036cf84483e4a6.bindTooltip(
+                `<div>
+                     노보텔 앰배서더
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
